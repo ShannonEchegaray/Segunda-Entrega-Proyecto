@@ -15,29 +15,63 @@
 
     <title>Deltarune-Tributo - Home</title>
 </head>
-<body>
-    <header class="">
+<body id="personajes">
+
+    <!-- Comienzo Header -->
+
+    <header class="container-fluid header sticky-menu" id="home">
+        <!-- Logo -->
+        <div class="row pt-2 pb-2 align-items-center">
+            <div class="col-1 d-lg-none min-wi">
+                <a href="#offcanvas" data-bs-toggle="offcanvas">
+                    <img src="../img/Hamburger.png" alt="Icono de menu" class="img-fluid">
+                </a>
+            </div>
+            <!-- offcanvas, menu responsive -->
+
+            <div class="offcanvas offcanvas-start menu-offcanvas" tabindex="-1" id="offcanvas">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu de navegacion</h5>
+                  <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-0">
+                    <ul class="p-0 m-0">
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="acerca-de.html">Acerca de</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="#personajes">Personajes</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="soundtrack.html">Soundtrack</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="autor.html">Autor</a></li>
+                    </ul>  
+                </div>
+            </div>
+              <!-- Fin de Offcanvas -->
+
+            <h1 class="col col-lg-12 text-center m-0">
+                <a href="../index.html" class="anchor-header-title">DELTARUNE</a>
+            </h1>
+        </div>
         <!--Menu-->
-        <div class="">
-            <ul>
-                <li class="">
-                    <a href="../index.html" class="">HOME</a>
+        <nav class="p-1 d-none d-lg-block">
+            <ul class="row text-center d-flex justify-content-center">
+                <li class="col-3 d-inline-block">
+                    <a href="acerca-de.html" class="anchor-header p-2 border rounded">ACERCA DE</a>
                 </li>
-                <li class="">
-                    <a href="../pages/acerca-de.html" class="">ACERCA DE</a>
+                <li class="col-3 d-inline-block">
+                    <a href="#personajes" class="anchor-header p-2 border rounded">PERSONAJES</a>
                 </li>
-                <li class="">
-                    <a href="#" class="">PERSONAJES</a>
+                <li class="col-3 d-inline-block">
+                    <a href="soundtrack.html" class="anchor-header p-2 border rounded">SOUNDTRACK</a>
                 </li>
-                <li class="">
-                    <a href="../pages/soundtrack.html" class="">SOUNDTRACK</a>
-                </li>
-                <li class="">
-                    <a href="../pages/autor.html" class="">AUTOR</a>
+                <li class="col-3 d-inline-block">
+                    <a href="autor.html" class="anchor-header p-2 border rounded">AUTOR</a>
                 </li>
             </ul>
-        </div>
+        </nav>
+        <!-- Fin Menu -->
     </header>
+
+    <!-- Fin Header -->
+    <!-- Comienzo Main -->
+
     <main class="">
         <!--Personajes-->
         <section class="">
@@ -47,92 +81,35 @@
             <div class="">
                 <h4 class="">PROTAGONISTAS</h4>
                 <!--La idea es que al presionar el link aparezca el div del personaje en cuestion-->
-                <div class="">
-                    <div class="">
-                        <img src="" alt="">
-                        <p class="">
-                            <a href="#kriss" class="">
-                                Kriss
-                            </a>
-                        </p>
-                    </div>
-                    <div class="">
-                        <img src="" alt="">
-                        <p class="">
-                            <a href="#susie" class="">
-                                Susie
-                            </a>
-                        </p>
-                    </div>
-                    <div class="">
-                        <img src="" alt="">
-                        <p class="">
-                            <a href="#ralsei" class="">
-                                Ralsei
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <img src="https://c.tenor.com/9Uj2Nr_0hAoAAAAd/kris-deltarune.gif" alt="" class="">
-                    </div>
-                    <div class="">
-                        <h5 class="" id="kriss">KRISS<h5>
-                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur enim, facilis, nostrum excepturi quasi fuga impedit quis illum autem a odit voluptas non molestiae iure ex vel fugiat recusandae eos.
-                        Alias, nisi. Iusto vel asperiores dicta quasi? Ab, necessitatibus, culpa sapiente vel esse sit facilis sequi corrupti quisquam dicta non, tempora maxime cum dolorem voluptatem. Repudiandae consequatur culpa vitae voluptas!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="--interno">
-                    <div class="">
-                        <img src="https://c.tenor.com/VKgnv94aeQIAAAAC/deltarune-susie.gif" alt="" class="">
-                    </div>
-                    <div class="">
-                        <h5 class="" id="susie">SUSIE<h5>
-                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur enim, facilis, nostrum excepturi quasi fuga impedit quis illum autem a odit voluptas non molestiae iure ex vel fugiat recusandae eos.
-                        Alias, nisi. Iusto vel asperiores dicta quasi? Ab, necessitatibus, culpa sapiente vel esse sit facilis sequi corrupti quisquam dicta non, tempora maxime cum dolorem voluptatem. Repudiandae consequatur culpa vitae voluptas!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <img src="https://c.tenor.com/IfjglbhIM6AAAAAd/ralsei-deltarune.gif" alt="" class="--dentro">
-                    </div>
-                    <div class="">
-                        <h5 class="" id="ralsei">RALSEI<h5>
-                        <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur enim, facilis, nostrum excepturi quasi fuga impedit quis illum autem a odit voluptas non molestiae iure ex vel fugiat recusandae eos.
-                        Alias, nisi. Iusto vel asperiores dicta quasi? Ab, necessitatibus, culpa sapiente vel esse sit facilis sequi corrupti quisquam dicta non, tempora maxime cum dolorem voluptatem. Repudiandae consequatur culpa vitae voluptas!</p>
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
-    <footer class="">
-        <div class="">
-            <ul>
-                <li class="">
-                    <a href="../index.html" class="">HOME</a>
-                </li>
-                <li class="">
-                    <a href="../pages/acerca-de.html" class="">ACERCA DE</a>
-                </li>
-                <li class="">
-                    <a href="#" class="">PERSONAJES</a>
-                </li>
-                <li class="">
-                    <a href="../pages/soundtrack.html" class="">SOUNDTRACK</a>
-                </li>
-                <li class="">
-                    <a href="../pages/autor.html" class="">AUTOR</a>
-                </li>
-            </ul>
-        </div>
-        <h6 class="">Derechos reservados. Hecho por Shannon Echegaray</h6>
+
+    <!-- Fin Main -->
+    <!-- Comienzo Footer -->
+
+   <footer class="container-fluid mt-5 text-center">
+    <div class="d-none d-lg-block">
+        <ul class="row">
+            <li class="col d-inline-block text-center">
+                <a href="../index.html" class="main-anchor-title">HOME</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="acerca-de.html" class="main-anchor-title">ACERCA DE</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="#personajes" class="main-anchor-title">PERSONAJES</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="soundtrack.html" class="main-anchor-title">SOUNDTRACK</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="autor.html" class="main-anchor-title">AUTOR</a>
+            </li>
+        </ul>
+    </div>
+    <h6 class="text-center">Derechos reservados. Hecho por Shannon Echegaray</h6>
     </footer>
+
+    <!-- Fin Footer -->
 </body>
 </html>

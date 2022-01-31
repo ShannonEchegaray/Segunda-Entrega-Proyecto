@@ -49,10 +49,25 @@ body a{
 }
 
 
-/* color de contenedores */
+/* Main */
 
 .main-color{
     background-color: #7491F6;
+}
+
+.main-anchor:hover{
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+.main-anchor-title{
+    text-decoration: none;
+}
+
+.main-anchor-title:hover{
+    color:#eee;
+    text-shadow: 0 0 3px #fff;
 }
 
 /* Ancho minimo para el nav bar ico */

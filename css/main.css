@@ -8,7 +8,6 @@ body{
 
 body a{
     color: #fff;
-    text-decoration: none;
 }
 
 /* Header */
@@ -16,9 +15,17 @@ body a{
     background-color: #0A45C3;
 }
 
+.anchor-header{
+    text-decoration: none;
+}
+
 .anchor-header:hover{
     background-color: #062B79;
     color: #eee;
+}
+
+.anchor-header-title{
+    text-decoration: none;
 }
 
 .anchor-header-title:hover{

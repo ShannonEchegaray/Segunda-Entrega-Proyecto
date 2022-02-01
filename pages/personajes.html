@@ -72,14 +72,69 @@
     <!-- Fin Header -->
     <!-- Comienzo Main -->
 
-    <main class="">
+    <main class="container-fluid">
         <!--Personajes-->
-        <section class="">
-            <div class="">
-                <h4 class="">PERSONAJES</h4>
-            </div>
-            <div class="">
-                <h4 class="">PROTAGONISTAS</h4>
+        <section class="row justify-content-center mt-5">
+            <div class="row col-12 col-md-11 col-lg-10 main-color p-4 justify-content-center">
+                <h4 class="col-12 text-center">PERSONAJES</h4>
+                <h4 class="col-12 text-center">PROTAGONISTAS</h4>
+                <div class="col-12 row justify-content-center">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-pills col-12 justify-content-around" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active main-anchor-title" id="kriss-tab" data-bs-toggle="pill" data-bs-target="#kriss" type="button" role="tab" aria-controls="kriss" aria-selected="true">Kriss</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link main-anchor-title" id="susie-tab" data-bs-toggle="pill" data-bs-target="#susie" type="button" role="tab" aria-controls="susie" aria-selected="true">Susie</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link main-anchor-title" id="ralsei-tab" data-bs-toggle="pill" data-bs-target="#ralsei" type="button" role="tab" aria-controls="ralsei" aria-selected="true">Ralsei</button>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content col-12 col-md-10 row">
+                        <div class="tab-pane active" id="kriss" role="tabpanel" aria-labelledby="kriss-tab">
+                            <div class="container p-0">
+                                <p class="text-center mt-4">Kriss</p>
+                                <div class="d-flex justify-content-center">
+                                    <img src="../img/kriss.png" alt="" class="img-fluid">
+                                </div>
+                                <p class="text-center mt-4">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae architecto consequatur eveniet rem et mollitia voluptates, consectetur ipsum a quae ipsa, vitae harum totam ullam porro ipsam officia corporis vel?
+                                </p>
+                            </div>       
+                        </div>
+
+                        <div class="tab-pane" id="susie" role="tabpanel" aria-labelledby="susie-tab">
+                            <div class="container p-0">
+                                <p class="text-center mt-4">Susie</p>
+                                <div class="d-flex justify-content-center">
+                                    <img src="../img/susie.png" alt="" class="img-fluid">
+                                </div>
+                                <p class="text-center mt-4">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae architecto consequatur eveniet rem et mollitia voluptates, consectetur ipsum a quae ipsa, vitae harum totam ullam porro ipsam officia corporis vel?
+                                </p>
+                            </div>  
+                        </div>
+
+                        <div class="tab-pane" id="ralsei" role="tabpanel" aria-labelledby="ralsei-tab">
+                            <div class="container p-0">
+                                <div>
+
+                                </div>
+                                <p class="text-center mt-4">Ralsei</p>
+                                <div class="d-flex justify-content-center">
+                                    <img src="../img/ralsei.png" alt="" class="img-fluid">
+                                </div>
+                                <p class="text-center">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae architecto consequatur eveniet rem et mollitia voluptates, consectetur ipsum a quae ipsa, vitae harum totam ullam porro ipsam officia corporis vel?
+                                </p>
+                            </div>                           
+                        </div>
+                    </div>
+                </div> 
+            </div>                
                 <!--La idea es que al presionar el link aparezca el div del personaje en cuestion-->
         </section>
     </main>
@@ -111,5 +166,8 @@
     </footer>
 
     <!-- Fin Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

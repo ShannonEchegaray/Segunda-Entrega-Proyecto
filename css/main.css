@@ -60,14 +60,19 @@ body a{
     text-shadow: 0 0 5px #fff;
 }
 
-
 .main-anchor-title{
     text-decoration: none;
+    color: #fff;
 }
 
 .main-anchor-title:hover{
     color:#eee;
     text-shadow: 0 0 3px #fff;
+}
+
+.main-anchor-tilte:active{
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
 }
 
 /* Ancho minimo para el nav bar ico */

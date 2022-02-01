@@ -16,107 +16,143 @@
     <title>Deltarune-Tributo - Home</title>
 </head>
 <body>
-    <header class="">
+    <!-- Comienzo Header -->
+
+    <header class="container-fluid header sticky-menu" id="home">
+        <!-- Logo -->
+        <div class="row pt-2 pb-2 align-items-center">
+            <div class="col-1 d-lg-none min-wi">
+                <a href="#offcanvas" data-bs-toggle="offcanvas">
+                    <img src="../img/Hamburger.png" alt="Icono de menu" class="img-fluid">
+                </a>
+            </div>
+            <!-- offcanvas, menu responsive -->
+
+            <div class="offcanvas offcanvas-start menu-offcanvas" tabindex="-1" id="offcanvas">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu de navegacion</h5>
+                  <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-0">
+                    <ul class="p-0 m-0">
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="acerca-de.html">Acerca de</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="#personajes">Personajes</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="soundtrack.html">Soundtrack</a></li>
+                        <li class="d-block"><a class="d-block p-2 anchor-offcanvas" href="autor.html">Autor</a></li>
+                    </ul>  
+                </div>
+            </div>
+              <!-- Fin de Offcanvas -->
+
+            <h1 class="col col-lg-12 text-center m-0">
+                <a href="../index.html" class="anchor-header-title">DELTARUNE</a>
+            </h1>
+        </div>
         <!--Menu-->
-        <div class="">
-            <ul>
-                <li class="">
-                    <a href="../index.html" class="">HOME</a>
+        <nav class="p-1 d-none d-lg-block">
+            <ul class="row text-center d-flex justify-content-center">
+                <li class="col-3 d-inline-block">
+                    <a href="acerca-de.html" class="anchor-header p-2 border rounded">ACERCA DE</a>
                 </li>
-                <li class="">
-                    <a href="../pages/acerca-de.html" class="">ACERCA DE</a>
+                <li class="col-3 d-inline-block">
+                    <a href="#personajes" class="anchor-header p-2 border rounded">PERSONAJES</a>
                 </li>
-                <li class="">
-                    <a href="../pages/personajes.html" class="">PERSONAJES</a>
+                <li class="col-3 d-inline-block">
+                    <a href="soundtrack.html" class="anchor-header p-2 border rounded">SOUNDTRACK</a>
                 </li>
-                <li class="">
-                    <a href="#" class="">SOUNDTRACK</a>
-                </li>
-                <li class="">
-                    <a href="../pages/autor.html" class="">AUTOR</a>
+                <li class="col-3 d-inline-block">
+                    <a href="autor.html" class="anchor-header p-2 border rounded">AUTOR</a>
                 </li>
             </ul>
-        </div>
+        </nav>
+        <!-- Fin Menu -->
     </header>
-    <main class="">
+
+    <!-- Fin Header -->
+    <!-- Comienzo Main -->
+
+    <main class="container-fluid">
         <!--Soundtrack y OST-->
-        <section class="">
-            <div class="">
-                <h4 class=""> SOUNDTRACK</h4>
-                <p class="">La música de deltarune esta compuesta en su mayoria por Toby Fox, y entre su variado cabe destacar su facilidad para encontrar la musica correcta para el momento correcto. Su genero puede variar entre musica de 8 bits como "Smart Race" o "A CIBER WORLD?", samples simples hechos con piano o con clavicordio en el caso del tema "Queen", entre otros.</p>
-            </div>
-            <div class="">
-                <h5 class="">Canciones</h5>
-                <div class="">
-                    <div class="">
-                        <ul>
-                            <li class="">A Simple Diversion - Toby Fox</li>
-                            <li class="">Lancer - Toby Fox</li>
-                            <li class="">Queen - Toby Fox</li>
-                            <li class="">NOW'S YOUR CHANCE TO BE A - Toby Fox</li>
-                        </ul>
-                    </div>
-                    <div class="">
-                        <ul>
-                            <li class="">Bluebird of Misfortune - Toby Fox</li>
-                            <li class="">Lost Girl - Toby Fox</li>
-                            <li class="">School - Toby Fox</li>
-                            <li class="">Field of Hopes an Dreams - Toby Fox</li>
-                        </ul>
-                    </div>
+        <section class="row justify-content-center mt-5">
+            <div class="row col-12 col-md-11 col-lg-10 main-color p-4 justify-content-center">
+                <h4 class="text-center"> SOUNDTRACK</h4>
+                <p class="text-center col-12 col-md-10 col-lg-8">La música de deltarune esta compuesta en su mayoria por Toby Fox, y entre su variado cabe destacar su facilidad para encontrar la musica correcta para el momento correcto. Su genero puede variar entre musica de 8 bits como "Smart Race" o "A CIBER WORLD?", samples simples hechos con piano o con clavicordio en el caso del tema "Queen", entre otros.</p>
+                <h5 class="text-center">Canciones</h5>
+                <div class="col-12 col-lg-4">
+
+                    <ul class="p-0 m-0">
+                        <li class="d-block text-center m-1">A Simple Diversion - Toby Fox</li>
+                        <li class="d-block text-center m-1">Lancer - Toby Fox</li>
+                        <li class="d-block text-center m-1">Queen - Toby Fox</li>
+                        <li class="d-block text-center m-1">NOW'S YOUR CHANCE TO BE A - Toby Fox</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <ul class="p-0 m-0">
+                        <li class="d-block text-center m-1">Bluebird of Misfortune - Toby Fox</li>
+                        <li class="d-block text-center m-1">Lost Girl - Toby Fox</li>
+                        <li class="d-block text-center m-1">School - Toby Fox</li>
+                        <li class="d-block text-center m-1">Field of Hopes an Dreams - Toby Fox</li>
+                    </ul>
                 </div>
             </div>
         </section>
-        <section class="">
-            <div class="">
-                <h4 class="">COMUNIDAD</h4>
-                <p class="">
-                    Con la fuerte pisada del videojuego su gran comunidad y fandom se pusieron a trabajar con remixes   , reinvenciones, orquestas, crossovers, covers, liricas, etc. Lo cual da una variedad y una reinterpretacion de las musicas anteriores, pero sin perder su leitmotiv.
+
+        <section class="row justify-content-center mt-5">
+            <div class="row col-12 col-md-11 col-lg-10 main-color p-4 justify-content-center">
+                <h4 class="text-center">COMUNIDAD</h4>
+                <p class="text-center">
+                    Con la fuerte pisada del videojuego su gran comunidad y fandom se pusieron a trabajar con remixes, reinvenciones, orquestas, crossovers, covers, liricas, etc. Lo cual da una variedad y una reinterpretacion de las musicas anteriores, pero sin perder su leitmotiv.
                 </p>
-            </div>
-            <div class="">
-                <h5 class="">Canciones</h5>
-                <div class="">
-                    <div class="">
-                        <ul>
-                            <li class="">Smart race Lyrical Remix - Khamydrian</li>
-                            <li class="">Attack of the killer queen Lyrical Remix - Khamydrian</li>
-                            <li class="">The world's revolving Remix - RetroSpecter</li>
-                            <li class="">The Legend Orchestal Cover - Osirois Music</li>
-                        </ul>
-                    </div>
-                    <div class="">
-                        <ul>
-                            <li class="">Field of Hopes an Dreams Orchestal cover - Sully Orchestration</li>
-                            <li class="">Pandora Palace Metal Cover - RichaardEB</li>
-                            <li class="">Attack of the killer queen Metal Cover - FamilyJules</li>
-                            <li class="">BIG SHOT Violin Cover - String Player Gamer</li>
-                        </ul>
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <ul class="p-0 m-0">
+                        <li class="d-block text-center m-1">Smart race Lyrical Remix - Khamydrian</li>
+                        <li class="d-block text-center m-1">Attack of the killer queen Lyrical Remix - Khamydrian</li>
+                        <li class="d-block text-center m-1">The world's revolving Remix - RetroSpecter</li>
+                        <li class="d-block text-center m-1">The Legend Orchestal Cover - Osirois Music</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <ul class="p-0 m-0">
+                        <li class="d-block text-center m-1">Field of Hopes an Dreams Orchestal cover - Sully Orchestration</li>
+                        <li class="d-block text-center m-1">Pandora Palace Metal Cover - RichaardEB</li>
+                        <li class="d-block text-center m-1">Attack of the killer queen Metal Cover - FamilyJules</li>
+                        <li class="d-block text-center m-1">BIG SHOT Violin Cover - String Player Gamer</li>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="">
-        <div class="">
-            <ul>
-                <li class="">
-                    <a href="../index.html" class="">HOME</a>
-                </li>
-                <li class="">
-                    <a href="../pages/acerca-de.html" class="">ACERCA DE</a>
-                </li>
-                <li class="">
-                    <a href="../pages/personajes.html" class=""
-                <li class="">
-                    <a href="#" class="">SOUNDTRACK</a>
-                </li>
-                <li class="">
-                    <a href="../pages/autor.html" class="">AUTOR</a>
-                </li>
-            </ul>
-        </div>
-        <h6 class="">Derechos reservados. Hecho por Shannon Echegaray</h6>
+
+    <!-- Fin Main -->
+    <!-- Comienzo Footer -->
+
+   <footer class="container-fluid mt-5 text-center">
+    <div class="d-none d-lg-block">
+        <ul class="row">
+            <li class="col d-inline-block text-center">
+                <a href="../index.html" class="main-anchor-title">HOME</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="acerca-de.html" class="main-anchor-title">ACERCA DE</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="#personajes" class="main-anchor-title">PERSONAJES</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="soundtrack.html" class="main-anchor-title">SOUNDTRACK</a>
+            </li>
+            <li class="col d-inline-block text-center">
+                <a href="autor.html" class="main-anchor-title">AUTOR</a>
+            </li>
+        </ul>
+    </div>
+    <h6 class="text-center">Derechos reservados. Hecho por Shannon Echegaray</h6>
     </footer>
+
+    <!-- Fin Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

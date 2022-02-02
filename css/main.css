@@ -81,6 +81,13 @@ body a{
     min-width: 60px;
 }
 
+/* Dando la misma altura de las imagenes */
+
+.img-fix{
+    height: 16rem;
+    max-width: auto;
+}
+
 /* Media queries */
 
 /* Media querie para dejar el menu pegado arriba cuando ya este el icono de hamburguesa */

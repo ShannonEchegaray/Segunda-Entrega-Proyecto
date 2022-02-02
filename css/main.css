@@ -15,6 +15,12 @@ body a{
     background-color: #0A45C3;
 }
 
+/* Ancho minimo para el nav bar ico */
+
+.min-wi{
+    min-width: 60px;
+}
+
 .anchor-header{
     text-decoration: none;
 }
@@ -73,12 +79,6 @@ body a{
 .main-anchor-tilte:active{
     color: #fff;
     text-shadow: 0 0 5px #fff;
-}
-
-/* Ancho minimo para el nav bar ico */
-
-.min-wi{
-    min-width: 60px;
 }
 
 /* Dando la misma altura de las imagenes */
